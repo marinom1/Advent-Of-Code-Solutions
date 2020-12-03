@@ -14,7 +14,7 @@ public class day1 {
 		
 		//First, read the puzzle input and store them as ints into an ArrayList data structure
 		try {
-			File myObj = new File("src/day1/input.txt");
+			File myObj = new File("src/day1/day1input.txt");
 			Scanner myReader = new Scanner(myObj);
 			ArrayList<Integer> array = new ArrayList<Integer>(300);
 			while (myReader.hasNextLine()) {

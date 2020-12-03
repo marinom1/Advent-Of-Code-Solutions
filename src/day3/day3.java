@@ -20,6 +20,9 @@ public class day3 {
 				String data = myReader.nextLine();
 				array.add(data);
 			}
+			
+			
+			
 			int trees = 0;
 			int x = 0; //x coordinate, zero indexed
 			int y = 0; //y coordinate, zero indexed

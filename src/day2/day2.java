@@ -33,8 +33,7 @@ public class day2 {
 				char checkLetter;
 				int count;
 				
-				if (currentLine.charAt(1) == '-') { // if min number is single digit
-					
+				if (currentLine.charAt(1) == '-') { // if min number is single digit			
 					if (currentLine.charAt(4) == ' ') { //Case 2: if min number is single digit and if max number is double digit
 						passwordStart = 8;
 						charToCheck = 5;

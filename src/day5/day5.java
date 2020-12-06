@@ -65,7 +65,7 @@ public class day5 {
 			}
 			//code above here
 		} catch (FileNotFoundException e) {
-			System.out.println("An error occurred.");
+			System.out.println("An error occurred - File Name / File Path was not found.");
 			e.printStackTrace();
 		}
 	}

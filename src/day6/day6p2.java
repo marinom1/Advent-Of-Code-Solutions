@@ -27,10 +27,6 @@ public class day6p2 {
 			String data = myReader.nextLine();
 			array.add(data);
 		}
-//		for (int i = 0; i < array.size(); i = i + 1) { //loop to print initial data in array
-//			System.out.printf("array[" + i + "] is: %s\n", array.get(i));
-//		}
-
 		int a = 0; // keeps track what index of array we are on
 		String currentLine = array.get(a);
 		while (a < array.size()) { // loop through all groups
